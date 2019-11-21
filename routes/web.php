@@ -18,3 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/requisition/create-requisition', 'RequisitionController@index');
+
+Route::get('/requisition/demo-time-picker', 'RequisitionController@demo');

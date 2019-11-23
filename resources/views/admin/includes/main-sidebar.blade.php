@@ -28,7 +28,7 @@
             <li class="">
                 <a href="{{ url('/requisition/create-requisition') }}">
                     <i class="fa fa-book"></i>
-                    <span>DEMO 1</span>
+                    <span>REQUISITION FOR EXPORT</span>
                 </a>
             </li>
 

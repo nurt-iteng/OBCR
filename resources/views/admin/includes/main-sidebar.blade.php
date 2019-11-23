@@ -24,14 +24,23 @@
                 </span>
                 </a>
             </li>
-
-            <li class="">
-                <a href="{{ url('/requisition/create-requisition') }}">
-                    <i class="fa fa-book"></i>
-                    <span>REQUISITION FOR EXPORT</span>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-plane" aria-hidden="true"></i>
+                    <span>EXPORT MOVEMENT</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
                 </a>
+                <ul class="treeview-menu">
+                    <li class="">
+                        <a href="{{ url('/requisition/create-requisition') }}">
+                            <i class="fa fa-book"></i>
+                            <span>REQUISITION FOR EXPORT</span>
+                        </a>
+                    </li>
+                </ul>
             </li>
-
             <li class="">
                 <a href="{{ url('/requisition/demo-time-picker') }}">
                     <i class="fa fa-book"></i>

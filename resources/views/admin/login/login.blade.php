@@ -30,7 +30,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="../../index2.html"><b>CVRS</b> OF MICRO LOGISTICS</a>
+        <a href="../../index2.html"><b>OBCR</b> OF MICRO LOGISTICS</a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">

@@ -34,13 +34,67 @@
                 </a>
                 <ul class="treeview-menu">
                     <li class="">
-                        <a href="{{ url('/requisition/create-requisition') }}">
+                        <a href="{{ url('/requisition/export-requisition') }}">
                             <i class="fa fa-book"></i>
                             <span>REQUISITION FOR EXPORT</span>
                         </a>
                     </li>
                 </ul>
             </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-truck" aria-hidden="true"></i>
+                    <span>IMPORT MOVEMENT</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="">
+                        <a href="{{ url('/requisition/import-requisition') }}">
+                            <i class="fa fa-book"></i>
+                            <span>REQUISITION FOR IMPORT</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-industry" aria-hidden="true"></i>
+                    <span>ENTIRE FACTORY/LOCAL</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="">
+                        <a href="{{ url('/requisition/entire-factory-requisition') }}">
+                            <i class="fa fa-book"></i>
+                            <span>DEPOT TO DEPOT</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-bank " aria-hidden="true"></i>
+                    <span>DEPOT TO DEPOT</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="">
+                        <a href="{{ url('/requisition/depot-to-depot-requisition') }}">
+                            <i class="fa fa-book"></i>
+                            <span>DEPOT TO DEPOT</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+
             <li class="">
                 <a href="{{ url('/requisition/demo-time-picker') }}">
                     <i class="fa fa-book"></i>

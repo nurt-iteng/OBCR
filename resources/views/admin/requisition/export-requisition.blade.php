@@ -1,11 +1,11 @@
 @extends('admin.master')
 
 @section('title')
-    REQUISITION
+    EXPORT REQUISITION
 @endsection
 
 @section('page-header')
-    COVER VAN REQUISITION INFO
+    EXPORT REQUISITION FORM
 @endsection
 
 @section('main-content')
@@ -20,19 +20,19 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Requisition No :</label>
+                            <label class="col-xs-4 control-label">Requisition No :</label>
 
                             <div class="col-xs-8">
-                                <input type="number" name="load_point" class="form-control" placeholder="Auto generate">
+                                <input type="number" name="requisition_no" class="form-control" placeholder="Auto generate">
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Requisition Date :</label>
+                            <label class="col-xs-4 control-label">Requisition Date :</label>
 
                             <div class="col-xs-8">
-                                <input type="date" name="unload_point" class="form-control">
+                                <input type="date" name="requisition_date" class="form-control">
                             </div>
                         </div>
                     </div>
@@ -42,16 +42,16 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Requisition Create By :</label>
+                            <label  class="col-xs-4 control-label">Requisition Create By :</label>
 
                             <div class="col-xs-8">
-                                <input type="number" name="requisition_create_by" class="form-control" placeholder="Enter Name">
+                                <input type="text" name="requisition_create_by" class="form-control" placeholder="Enter Name">
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Requisition Location :</label>
+                            <label  class="col-xs-4 control-label">Requisition Location :</label>
 
                             <div class="col-xs-8">
                                 <select class="form-control" name="requisition_location">
@@ -61,7 +61,7 @@
                                     <option value="LKL">Liberty Kinwear Ltd</option>
                                     <option value="AOPL">A-One Polar Ltd</option>
                                     <option value="OCTL">Orient Chem-Tex Ltd</option>
-                                    <option value="HCL">Harmony Chem-Tex Ltd</option>
+                                    <option value="HCL">Harmony Chem Ltd</option>
                                     <option value="MTL">Micro Trims Ltd</option>
                                 </select>
                             </div>
@@ -73,7 +73,7 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Buyer Name :</label>
+                            <label  class="col-xs-4 control-label">Buyer Name :</label>
 
                             <div class="col-xs-8">
                                 <select class="form-control" name="buyer_name">
@@ -92,14 +92,14 @@
                     </div>
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Load Point :</label>
+                            <label  class="col-xs-4 control-label">Load Point :</label>
 
                             <div class="col-xs-8">
                                 <select class="form-control" name="load_point">
                                     <option>---Select Buyer Name---</option>
                                     <option value="Vulta">Vulta</option>
                                     <option value="Fatullah">Fatullah</option>
-                                    <option value="demo">Kaliakoir</option>
+                                    <option value="Kaliakoir">Kaliakoir</option>
                                 </select>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Unload Point :</label>
+                            <label  class="col-xs-4 control-label">Unload Point :</label>
 
                             <div class="col-xs-8">
                                 <select class="form-control" name="unload_point">
@@ -136,7 +136,7 @@
                     </div>
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Item :</label>
+                            <label  class="col-xs-4 control-label">Item :</label>
 
                             <div class="col-xs-8">
                                 <input type="text" name="item" class="form-control" placeholder="Enter Item">
@@ -149,7 +149,7 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Quantity :</label>
+                            <label  class="col-xs-4 control-label">Quantity :</label>
 
                             <div class="col-xs-8">
                                 <input type="number" name="quantity" class="form-control" placeholder="Enter Quantity">
@@ -158,7 +158,7 @@
                     </div>
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">CBM :</label>
+                            <label  class="col-xs-4 control-label">CBM :</label>
 
                             <div class="col-xs-8">
                                 <input type="number" name="cbm" class="form-control" placeholder="Enter CBM">
@@ -171,16 +171,16 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">No Of Van :</label>
+                            <label  class="col-xs-4 control-label">No Of Van :</label>
 
                             <div class="col-xs-8">
-                                <input type="number" name="number_of_van" class="form-control" placeholder="Enter No Of Van">
+                                <input type="number" name="no_of_van" class="form-control" placeholder="Enter No Of Van">
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-6" class="bootstrap-timepicker">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Load Time :</label>
+                            <label  class="col-xs-4 control-label">Load Time :</label>
 
                             <div class="col-xs-8">
                                 <div class="input-group">
@@ -198,7 +198,7 @@
                 <div class="row">
                     <div class="col-xs-6" class="bootstrap-timepicker">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Unload Time :</label>
+                            <label  class="col-xs-4 control-label">Unload Time :</label>
 
                             <div class="col-xs-8">
                                 <div class="input-group">
@@ -212,11 +212,11 @@
                     </div>
                     <div class="col-xs-6" class="bootstrap-timepicker">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Cut Off Time :</label>
+                            <label  class="col-xs-4 control-label">Cut Off Time :</label>
 
                             <div class="col-xs-8">
                                 <div class="input-group">
-                                    <input type="text" name="unload_time" class="form-control timepicker" placeholder="Enter Cut Of Time">
+                                    <input type="text" name="cut_of_time" class="form-control timepicker" placeholder="Enter Cut Of Time">
                                     <div class="input-group-addon">
                                         <i class="fa fa-clock-o"></i>
                                     </div>
@@ -230,7 +230,7 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Cut Off Date :</label>
+                            <label  class="col-xs-4 control-label">Cut Off Date :</label>
 
                             <div class="col-xs-8">
                                 <input type="date" name="cut_off_date" class="form-control">
@@ -239,7 +239,7 @@
                     </div>
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Fare :</label>
+                            <label  class="col-xs-4 control-label">Fare :</label>
 
                             <div class="col-xs-8">
                                 <input type="number" name="fare" class="form-control" placeholder="Enter Fare">
@@ -252,16 +252,16 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Transport Name :</label>
+                            <label  class="col-xs-4 control-label">Transport Name :</label>
 
                             <div class="col-xs-8">
-                                <input type="date" name="transport_name" class="form-control" placeholder="Enter Transport Name">
+                                <input type="text" name="transport_name" class="form-control" placeholder="Enter Transport Name">
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Cover Van Capacity</label>
+                            <label  class="col-xs-4 control-label">Cover Van Capacity</label>
 
                             <div class="col-xs-8">
                                 <input type="number" name="cover_van_capacity" class="form-control" placeholder="Enter Capacity">
@@ -274,7 +274,7 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-4 control-label">Cover Van No</label>
+                            <label  class="col-xs-4 control-label">Cover Van No</label>
 
                             <div class="col-xs-8">
                                 <input type="number" name="cover_van_no" class="form-control" placeholder="Enter No">

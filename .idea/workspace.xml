@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86ca1b5e-36f6-4452-9c0e-c20b56daf2f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/requisition/depot-to-depot.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/requisition/entire-factory.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/requisition/import-requisition.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RequisitionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RequisitionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/main-sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/login/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/requisition/show-requisition.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/requisition/export-requisition.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +186,8 @@
       <workItem from="1574160335411" duration="1002000" />
       <workItem from="1574163524978" duration="434000" />
       <workItem from="1574322772234" duration="6112000" />
-      <workItem from="1574482528914" duration="3919000" />
+      <workItem from="1574482528914" duration="6823000" />
+      <workItem from="1574565915070" duration="14859000" />
     </task>
     <servers />
   </component>
